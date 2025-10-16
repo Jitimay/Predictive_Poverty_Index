@@ -26,11 +26,16 @@ wheels/
 *.egg
 
 # Model files (optional - you might want to commit these)
-models/*.h5
-models/*.pkl
+# models/*.h5
+# models/*.pkl
 
-# Data files (optional - you might want to commit these)
-data/*.csv
+# Data files (optional - you might want to commit these)  
+# data/*.csv
+
+# Allow specific demo files
+!data/raw_data.csv
+!models/lstm_model.h5
+!models/model_metadata.json
 
 # IDE
 .vscode/
